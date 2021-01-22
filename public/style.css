@@ -27,7 +27,7 @@
 .mensaje{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 100%;
     font-size: 20px;
     padding: 0.3rem;
@@ -57,4 +57,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
+}
+.msgCont{
+    margin-left: 12px;
 }

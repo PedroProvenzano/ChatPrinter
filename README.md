@@ -15,5 +15,7 @@ Basicamente tenes que crear y reemplazar los valores del archivo .env por los co
 
 ### Ejemplo de archivo .env
 IRC_TOKEN= Token de autorizacion ( se consigue en esta pagina https://twitchapps.com/tmi/)
+
 NICK= Nick del usuario que va a conectarse a tu chat (puede ser tu canal u otro secundario, asegurate que coincida con la IRC_TOKEN que conseguiste de ese canal)
+
 INITIAL_CHANNEL= (El canal en el que va a printear el chat).

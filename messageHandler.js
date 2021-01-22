@@ -19,12 +19,12 @@ class MessageHandler{
         {
             return;
         }
-        let message = {
+        let messageSend = {
             username: tags.username,
             streamer: streamer,
             msg: msg
         }
-        this.io.emit('newMsg', message);
+        this.io.emit('newMsg', messageSend);
     }
 }
 

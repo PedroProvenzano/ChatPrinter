@@ -7,7 +7,7 @@ socket.on('newMsg', message => {
     let div = document.createElement('div');
     div.setAttribute("class", "mensaje");
     let pUno = document.createElement('p');
-    pUno.innerText = username;
+    pUno.innerText = `${username}:`;
     let pDos = document.createElement('p');
     pDos.setAttribute('class', 'msgCont');
     pDos.innerText = message.msg;
